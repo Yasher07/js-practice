@@ -38,3 +38,31 @@ const myFunction = function (){
 }
 
 console.log(typeof heroes)
+
+
+// ++++++++++++++++++++++++++++++++++++++++
+
+// Two types of memory 
+
+// Stack (Primitive), Heap (Non Primitive)
+
+let myYoutubename = "yasheryoutube"
+
+let anothername = myYoutubename
+anothername = "arafathyoutube"
+
+console.log(myYoutubename);
+console.log(anothername);
+
+
+let userOne = {
+    email: "user@gmail.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "second@gmail.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
